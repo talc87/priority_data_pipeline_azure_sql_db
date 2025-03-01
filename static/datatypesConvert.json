@@ -1,0 +1,50 @@
+[
+	{
+		"_id": {
+			"sourceSystem": "Priority",
+			"SourceDataType": "Edm.String"
+		},
+		"MySQLDatatype": "TEXT(255)",
+		"postgresDatatype": "VARCHAR"
+	},
+	{
+		"_id": {
+			"sourceSystem": "Priority",
+			"SourceDataType": "Edm.Decimal"
+		},
+		"MySQLDatatype": "Numeric(scale=3)",
+		"postgresDatatype": "NUMERIC"
+	},
+	{
+		"_id": {
+			"sourceSystem": "Priority",
+			"SourceDataType": "Edm.DateTimeOffset"
+		},
+		"MySQLDatatype": "DateTime",
+		"postgresDatatype": "TIMESTAMP"
+	},
+	{
+		"_id": {
+			"sourceSystem": "Priority",
+			"SourceDataType": "Edm.Int64"
+		},
+		"MySQLDatatype": "BigInteger",
+		"postgresDatatype": "BIGINT"
+	},
+	{
+		"_id": {
+			"sourceSystem": "SBO",
+			"SourceDataType": "SBO_text"
+		},
+		"MySQLDatatype": "TEXT(255)",
+		"postgresDatatype": "VARCHAR(255)"
+	},
+	{
+		"_id": {
+			"sourceSystem": "SBO",
+			"SourceDataType": "SBO_num"
+		},
+		"MySQLDatatype": "TEXT(255)",
+		"postgresDatatype": "VARCHAR(255)"
+	}
+]
